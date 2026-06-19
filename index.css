@@ -1,0 +1,22 @@
+/*
+  Minimal reset only.
+  The full design system (tokens, typography, layout, animations) is injected
+  by the Portfolio component itself via its <GlobalStyles> block, scoped to
+  the .pf-root wrapper. Keep this file lean to avoid conflicts.
+*/
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
